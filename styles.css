@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background-color-light: #e3e2e2;
+    --secondary-background-color-light: #fff;
+    --text-color-light: #000;
+    --secondary-color-light: #4B0082;
+  
+    --background-color-dark: #393E41;
+    --text-color-dark: #F6f7eb;
+    --secondary-color-dark: #4B0082;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+/***************** PAGE CONTAINERS **************/
+
+
+/********** navigation bar ************ */
+.nav-bar{
+    margin: 2rem auto;
+    width: 100%;
+    background-color: var(--secondary-background-color-light);
+    padding: 1rem 0 1rem 0;
+    border-radius: 10px;
+}
+
+.nav-bar ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.nav-bar ul a {
+    font-size: 1.15rem;
+    text-decoration: none;
+    color: var(--text-color-light);
+}
+
+.nav-bar ul a:hover {
+    color: var(--secondary-color-light);
+}
+
+/**************** 1st section ***********/
+.text-container{
+    padding: .5rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+.home-hero{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center; /* Centers items vertically */
+    justify-content: flex-start; /* Align items to the left */
+    gap: .5rem; /* Space between image and text */
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+.my-photo-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.my-photo{
+    width: 250px;
+    border-radius: 10%;
+    align-items: center;
+}
+
+.home-title{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 3rem 3rem 1.5rem 3rem;
+}
+
+.divider{
+    background-color: black;
+    width: 350px;
+    margin: 0 auto;
+    height: 2px;
+
+}
+
+.home-description{
+    font-size: 1.6rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+
+/*************** 2nd section ************/
+
+.experience-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 2fr 1fr;
+    /* gap: 40px; */
+    min-height: 300px;
+    
+}
+
+
+.experience-container h2 {
+    margin: 0;
+    padding: 0;
+    /* padding-bottom: 1rem; */
+    font-size: 3.25rem;
+    color: var(--text-color-light);
+    text-transform: uppercase; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.byui-container-box{
+    width: 100%;
+    grid-row: 2;
+    margin: 0;
+}
+
+.experience-top img{
+    width: 100px;
+}
+
+.experience-top p{
+    
+}
+
+.byui-container-box{
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--secondary-background-color-light);
+    margin: 0;
+}
+
+.warehouse-container-box{
+    color: black;
+    height: 80%;
+    width: 40rem;
+    border-radius: 10px;
+    background-color: var(--secondary-background-color-light);
+}
+
+.education-container-box{
+    height: 5rem;
+    border-radius: 10px;
+    background-color: var(--secondary-background-color-light);
+}
+
+.skills-container-box{
+    height: 5rem;
+    border-radius: 10px;
+    background-color: var(--secondary-background-color-light);
+}
+
+.skills {
+    grid-column: 2/3;
+}
