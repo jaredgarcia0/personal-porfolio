@@ -30,6 +30,9 @@ body{
     background-color: var(--secondary-background-color-light);
     padding: 1rem 0 1rem 0;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .nav-bar ul {
@@ -95,7 +98,6 @@ body{
     width: 350px;
     margin: 0 auto;
     height: 2px;
-
 }
 
 .home-description{
@@ -115,7 +117,6 @@ body{
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 2fr 1fr;
-    /* gap: 40px; */
     min-height: 300px;
     
 }
@@ -132,47 +133,154 @@ body{
 }
 
 .byui-container-box{
+    color: black;
     width: 100%;
-    grid-row: 2;
+    border-radius: 10px;
+    background-color: var(--secondary-background-color-light);
     margin: 0;
+    grid-row: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.experience-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
 }
 
 .experience-top img{
     width: 100px;
+    padding-left: 5%;
 }
 
 .experience-top p{
-    
+    padding-right: 5%;
+    font-weight: bold;
+    margin: auto 0;
 }
 
-.byui-container-box{
+.byui-container-box ul{
+    padding-right: 2%;
+    line-height: 1.75;
+}
+
+.line{
+    background-color: var(--background-color-light);
+    width: 100%;
+    margin: 0 auto;
+    height: 3px;
+}
+
+/* ************* Call center ****************** */
+
+.call-center-container-box{
     color: black;
     width: 100%;
     border-radius: 10px;
     background-color: var(--secondary-background-color-light);
     margin: 0;
+    grid-row: 3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
+
+.call-center-container-box ul{
+    padding-right: 2%;
+    line-height: 2;
+
+}
+
+/* ************* Warehouse ****************** */
 
 .warehouse-container-box{
     color: black;
-    height: 80%;
-    width: 40rem;
+    width: 100%;
     border-radius: 10px;
     background-color: var(--secondary-background-color-light);
+    margin: 0;
+    grid-row: 4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.education-container-box{
-    height: 5rem;
+.warehouse-container-box ul{
+    padding-right: 2%;
+    line-height: 2;
+}
+
+/* ************* Education and skill ****************** */
+
+.education h2{
+    margin: 0;
+    padding: 0;
+    font-size: 3.25rem;
+    color: var(--text-color-light);
+    text-transform: uppercase; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.education-skill-container-box{
+    color: black;
+    width: 100%;
+    height: 290px;
     border-radius: 10px;
     background-color: var(--secondary-background-color-light);
+    margin: 0;
+    grid-column: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.skills-container-box{
-    height: 5rem;
+/* .education-skill-container-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+.education-skill-container-box img{
+    width: 80px;
+    padding-left: 5%;
+}
+
+.education-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.education-top p{
+    padding-right: 5%;
+    font-weight: bold;
+    margin: auto 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.education-skill-container-box p{
+    padding-left: 5%;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+.skills-title h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.skills-container{
+    width: 100%;
+    height: 70px;
     border-radius: 10px;
     background-color: var(--secondary-background-color-light);
+    margin: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.skills {
-    grid-column: 2/3;
-}
+
