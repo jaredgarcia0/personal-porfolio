@@ -15,10 +15,13 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: var(--background-color-light);
   color: var(--text-color-light);
-  margin: 0 auto;
   padding: 0;
-  width: 80%;
   display: grid;
+}
+
+.main-content{
+  width: 80%;
+  margin: 0 auto;
 }
 
 /***************** NAVIGATION **************/
@@ -116,7 +119,7 @@ body {
   color: var(--text-color-light);
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  /* text-align: center; */
   margin: 2rem 0;
 }
 
@@ -148,11 +151,11 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .education-header p{
-    padding-right: 5%;
-    font-weight: bold;
-    margin: auto 0;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+  padding-right: 5%;
+  font-weight: bold;
+  margin: auto 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 .experience-box ul {
@@ -211,8 +214,42 @@ font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
 }
 
+/****************** PROJECTS *********************/
+.projects-box{
+  background-color: var(--secondary-background-color-light);
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.projects-box img{
+  width: 200px;
+  border-radius: 3%;
+  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects-box img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projects-box h2{
+  text-align: center;
+}
+.projects-box ul{
+  line-height: 1.75;
+}
+
 /**************** FOOTER **************/
 footer {
+  width: 100%;
   background-color: #333;
   color: white;
   text-align: center;
@@ -224,3 +261,4 @@ footer {
   width: 30px;
   margin: 0 10px;
 }
+
