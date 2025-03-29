@@ -29,10 +29,10 @@ body {
 .nav-bar {
   margin: 2rem auto;
   background-color: var(--secondary-background-color-light);
-  padding: 1rem 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .nav-bar ul {
@@ -41,7 +41,8 @@ body {
   align-items: center;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 14px 16px;
+
 }
 
 .nav-bar ul a {
@@ -51,8 +52,15 @@ body {
 }
 
 .nav-bar ul a:hover {
-  color: var(--secondary-color-light);
+  background-color: #4a4949;
+  color: white;
 }
+
+.nav-bar a{
+  padding: 14px 16px;
+  transition: all 0.3s ease;
+}
+
 
 /***************** HOME HERO **************/
 .home-hero {
@@ -318,4 +326,4 @@ footer {
 .footer-container p{
   margin: 0;
   margin-bottom: 16px;
-} */ */
+} 
