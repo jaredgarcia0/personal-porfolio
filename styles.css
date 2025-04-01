@@ -327,3 +327,58 @@ footer {
   margin: 0;
   margin-bottom: 16px;
 } 
+
+/* ************** responsiveness ************ */
+
+@media screen and (max-width: 900px) {
+  .main-content {
+    width: 95%;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .nav-bar ul a {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .home-title {
+    font-size: 2.5rem;
+  }
+
+  .home-description {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .my-photo {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+  }
+
+  #experience-skills-grid, .projects-box-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .projects-box img {
+    width: 100%;
+  }
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-container a {
+    justify-content: center;
+  }
+}
