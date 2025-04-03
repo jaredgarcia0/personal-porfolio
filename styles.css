@@ -344,10 +344,11 @@ footer {
 .footer-container a{
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items:center;
   color: var(--background-color-light);
   padding: .5rem;
   width: 0;
+  text-decoration: none;
 }
 
 .footer-container img {
@@ -355,10 +356,7 @@ footer {
   margin: 0 16px;
   align-items: baseline;
 }
-.footer-container p{
-  margin: 0;
-  margin-bottom: 16px;
-} 
+
 
 /* ************** responsiveness ************ */
 
