@@ -52,7 +52,7 @@ body {
 }
 
 .nav-bar ul a:hover {
-  background-color: #4a4949;
+  background-color: var(--secondary-color-light);
   color: white;
 }
 
