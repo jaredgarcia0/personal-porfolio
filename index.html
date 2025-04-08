@@ -10,11 +10,11 @@
 <body>
   <div class="main-content">
     <header>
-      <nav class="nav-bar">
+      <nav class="nav-bar" role="navigation">
         <ul>
-          <li><a href=index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="experience.html">Experience</a></li>
-          <li><a href="experience.html">Skills</a></li>
+          <li><a href="skills.html">Skills</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="volunteering.html">Volunteering</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -22,7 +22,7 @@
       </nav>
     </header>
 
-    <main>
+    <main role="main">
       <!-- Home Section -->
       <section id="home" class="home-hero">
         <div class="text-container">
@@ -41,7 +41,7 @@
       </section>
 
       <!-- Experience Section -->
-      <section id="experience-skills-grid">
+      <div id="experience-skills-grid">
         <section id="experience" class="experience-section">
           <h2 class="section-title">Experience</h2>
   
@@ -134,10 +134,10 @@
             </div>
           </div>
         </section>
-      </section>
+      </div>
 
       <!-- PERSONAL PROJECTS -->
-      <section id="projects" class=projects-section">
+      <section id="projects" class="projects-section">
         <h2 class="section-title">Projects</h2>
     
         <div class="projects-box-grid">
@@ -168,7 +168,7 @@
       </section>
 
       <!-- VOLUNTEERING -->
-      <section id="volunteering" class=volunteering-section">
+      <section id="volunteering" class="volunteering-section">
         <h2 class="section-title">Volunteering</h2>
         
           <div class="volunteering-box">
@@ -206,7 +206,6 @@
               </ul>
             </div>
           </div>
-        </div>
       </section>
 
       
@@ -214,7 +213,7 @@
   </div>
 
   <!-- Footer -->
-  <footer id="contact">
+  <footer id="contact" role="contentinfo">
     <div class="footer-container">
       <a href="mailto:jaredgarcia45777@gmail.com" target="_blank"><img src="images/email-logo.png" alt="Mail icon"/>jaredgarcia45777@gmail.com</a>
 
