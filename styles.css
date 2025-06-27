@@ -42,7 +42,6 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 14px 16px;
-
 }
 
 .nav-bar ul a {
@@ -143,12 +142,12 @@ body {
 }
 /**************** EXPEREINCE, EDUCATION & SKILLS GRID ***********/
 #experience-skills-grid{
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: 2fr 1fr;
-    min-height: 300px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 2fr 1fr;
+  min-height: 300px;
 
 }
 
@@ -278,7 +277,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .projects-box img{
-  width: 400px;
+  width: 300px;
   border-radius: 3%;
   transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
 }
